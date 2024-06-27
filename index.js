@@ -77,6 +77,7 @@ const events = [
 
 // Endpoint to get all events
 app.get('/events', (req, res) => {
+  console.log("incoming req");
   try {
     res.status(200).json(events);
   } catch (error) {
