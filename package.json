@@ -1,10 +1,11 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
   }
 }
